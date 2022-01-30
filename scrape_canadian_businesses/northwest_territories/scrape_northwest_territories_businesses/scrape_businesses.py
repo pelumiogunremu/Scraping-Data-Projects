@@ -14,7 +14,7 @@ import pandas as pd
 
 # ## FUNCTIONAL PROGRAMS
 
-# In[2]:
+# In[7]:
 
 
 def thread(function, webpage_urls):
@@ -261,7 +261,7 @@ def extract_bus(text, url):
   thread(get_tags_texts, subsubbus_urls)
   bus = get_tags_texts(subsubbus_urls)
 
-  pd.DataFrame(bus).to_csv(f"{text.lower().replace(" ", "-")}-businesses.csv", index=False)
+  pd.DataFrame(bus).to_csv(f"{text.lower().replace('', '-')}-businesses.csv", index=False)
 
   return "extraction complete!"
 
