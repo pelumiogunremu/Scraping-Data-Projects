@@ -7,7 +7,7 @@ This project involves the extraction of business data such as business name, typ
 The idea that inspired this project is the problem of inadequate tool for the prediction of the fertile location for a particular business type.
 
 ### Project Outline
-    - https://www.yellowpages.ca/locations/ is the website to be scraped
+    - https://www.yellowpages.ca/locations/ was the scraped website
     - Request for the webpage content using the requests library
     - Parse the webpage content using the BeautifulSoup from the bs4 library
     - Get the tags using the tag name and class selector
